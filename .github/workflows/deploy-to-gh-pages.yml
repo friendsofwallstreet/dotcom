@@ -3,6 +3,7 @@ name: Build and Deploy to Github Pages
 on:
   pull_request:
     paths-ignore:
+      - "data/**"
       - "tests/**"
       - "README.md"
       - "LICENSE"
@@ -10,6 +11,7 @@ on:
     branches:
       - main
     paths-ignore:
+      - "data/**"
       - "tests/**"
       - "README.md"
       - "LICENSE"
