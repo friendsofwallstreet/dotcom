@@ -1,0 +1,31 @@
+.card {
+  background: #fff;
+  color: #222;
+  max-width: 550px;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+  h3 {
+    margin-bottom: 4px;
+    color: #222;
+  }
+
+  a {
+    text-decoration: none;
+    &.link {
+      color: #f1c40f;
+      font-size: .8em;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: inline-block;
+      max-width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  pre {
+    padding-right: 5px;
+    white-space: pre-wrap;
+    font-family: IBMPlexSans, Arial, sans-serif;
+  }
+}
