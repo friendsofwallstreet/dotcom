@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"+npF":function(e,o,t){"use strict";t.r(o);var i=t("hosL"),n=t("CBR4"),s=t.n(n);o.default=()=>Object(i.h)("div",{class:s.a.publications},Object(i.h)("h1",null,"Publications"),Object(i.h)("p",null,"The directory of publishers who lied about where to get our tendies."))},CBR4:function(e){e.exports={publications:"f452"}}}]);
-//# sourceMappingURL=route-publication.chunk.47d0d.esm.js.map
