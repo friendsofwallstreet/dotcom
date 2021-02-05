@@ -9,6 +9,7 @@ html, body {
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	// font-size: 1vw;
 }
 
 * {
@@ -17,4 +18,9 @@ html, body {
 
 #app {
 	height: 100%;
+	// font-size: calc(1em + 5px);
+
+	.btn {
+		border: 1px solid red;
+	}
 }

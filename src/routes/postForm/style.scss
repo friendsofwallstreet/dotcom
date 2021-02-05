@@ -1,0 +1,58 @@
+.postForm {
+	padding: 56px 20px;
+	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
+	font-size: 0.5vw;
+
+	h1 {
+		font-size: calc(2em + 16px);
+	}
+
+	.card {
+		background: #fff;
+		color: #222;
+		// max-width: 550px;
+		padding: 15px;
+		border-radius: 5px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		font-size: calc(1em + 9px);
+
+		label {
+			text-transform: uppercase;
+			flex-basis: 20%;
+		}
+
+		input, textarea {
+			padding: 10px 15px;
+			border: 1px solid #ccc;
+			border-width: 0 0 1px;
+			flex-basis: calc(80% - 32px);
+			// min-width: 75%;
+			flex-grow: 1;
+			font-size: 1em;
+			flex-shrink: 0;
+			&[type=button] {
+				cursor: pointer;
+			}
+		}
+
+		> div { //captcha
+			margin: 15px 10px 10px;
+		}
+	}
+
+	@media screen and (max-width: 667px) {
+		padding: 20px;
+		.card {
+			label {
+				margin-top: 1em;
+			}
+			input, textarea {
+				min-width:100%;
+			}
+		}
+	}
+}

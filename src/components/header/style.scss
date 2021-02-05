@@ -83,4 +83,21 @@
 		}
 
 	}
+
+	@media screen and (max-width: 374px) {
+		nav {
+			font-size: 0.75em;
+			a {
+				line-height: 3em;
+				height: 3em;
+			}
+		}
+		img {
+			height: 75px;
+		}
+		h1 {
+			font-size: 1.25em;
+			line-height: 1.5em;
+		}
+	}
 }

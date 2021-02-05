@@ -37,6 +37,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
+    "@hcaptcha/react-hcaptcha": "^0.3.2",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
     "preact-router": "^3.2.1"

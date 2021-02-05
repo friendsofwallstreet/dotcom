@@ -1,0 +1,53 @@
+.publications {
+	padding: 56px 20px 0;
+	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+
+	.column {
+		flex-grow: 1;
+		&:first-child {
+			order: 2;
+		}
+		&:nth-child(2) {
+			padding-bottom: 56px;
+			max-height: calc(100vh - 56px);
+			overflow: scroll;
+		}
+	}
+
+	.postBtn {
+		background: #fff;
+		color: #222;
+		font-weight: 500;
+		padding: 5px 20px;
+		text-align: center;
+		border-radius: 5px;
+		margin: 67px 0;
+		cursor: pointer;
+		display: block;
+		text-decoration: none;
+		&:hover,
+		&:active {
+			background-color: #f1c40f;
+		}
+	}
+
+	@media screen and (max-width: 667px) {
+		padding: 20px;
+		flex-wrap: wrap;
+		.column {
+			&:first-child {
+				order: 0;
+				.postBtn {
+					margin: 10px 0;
+				}
+			}
+			&:nth-child(2) {
+				max-height: none;
+			}
+		}
+	}
+}
